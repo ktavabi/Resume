@@ -2,7 +2,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{russell}
+\documentclass[11pt, letterpaper]{russell}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -28,7 +28,7 @@
 \setbool{acvSectionColorHighlight}{true}
 
 % If you would like to change the social information separator from a pipe (|) to something else
-\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+\renewcommand{\acvHeaderSocialSep}{\quad\infty\quad}
 
 
 %-------------------------------------------------------------------------------
@@ -37,18 +37,18 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo[rectangle,edge,right]{./examples/profile}
-\name{Nanda}{Dipan}
+\name{Kambiz}{Tavabi, PhD}
 % \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{15, Grayson Heights, Eden Mount, Leeds, LS4 2UD, United Kingdom}
+\address{Seattle, WA.}
 
-\mobile{07880039057}
-\email{d19cyber@gmail.com}
+\mobile{206\cdotp719\cdotp3524}
+\email{ktavabi@gmail.com}
 %\dateofbirth{January 1st, 1970}
-%\homepage{www.posquit0.com} 
-\github{github.com/themagicalmammal}
-\linkedin{linkedin.com/in/themagicalmammal}
+%\homepage{www.posquit0.com}
+\github{github.com/ktavabi}
+% \linkedin{linkedin.com/in/themagicalmammal}
 % \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
+\stackoverflow{1634460}{kambiz}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
@@ -56,7 +56,7 @@
 % \kaggle{kaggle-id}
 % \googlescholar{googlescholar-id}{name-to-display}
 %% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
+\googlescholar{VO6NMiEAAAAJ\&hl}{}
 % \extrainfo{extra information}
 
 % \quote{``Simplicity is deceptively complicated."}
@@ -72,9 +72,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {}
-  {\thepage}
+{\today}
+{}
+{\thepage}
 
 
 %-------------------------------------------------------------------------------
@@ -84,10 +84,10 @@
 \input{cv/summary.tex}
 \input{cv/education.tex}
 \input{cv/experience.tex}
-\input{cv/projects.tex}
+\input{cv/publications.tex}
 \input{cv/skills.tex}
 \input{cv/achievements.tex}
-\input{cv/interests.tex}
+% \input{cv/interests.tex}
 \input{cv/languages.tex}
 
 \vspace*{\fill}
