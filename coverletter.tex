@@ -1,0 +1,134 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letterpaper]{russell}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-black}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\infty\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Kambiz}{Tavabi, PhD}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{Seattle, WA.}
+
+\mobile{206\cdotp719\cdotp3524}
+\email{ktavabi@gmail.com}
+%\dateofbirth{January 1st, 1970}
+%\homepage{www.posquit0.com}
+\github{github.com/ktavabi}
+% \linkedin{linkedin.com/in/themagicalmammal}
+% \gitlab{gitlab-id}
+\stackoverflow{1634460}{kambiz}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+\googlescholar{VO6NMiEAAAAJ\&hl}{}
+% \extrainfo{extra information}
+
+% \quote{``Simplicity is deceptively complicated."}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {XXX} % FIXME
+  {XXX} % FIXME
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{XXX} % FIXME
+% How the letter is opened
+\letteropening{\newline Greetings,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Résumé}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{\today}
+{Kambiz Tavabi~~~·~~~Cover Letter}
+{\thepage}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+   % FIXME
+  I am writing to express my interest in the Remote Lead Data Scientist position at XXX. I have over thirteen years of experience managing small-scale biomedical data science projects. I received my Ph.D. in neuroscience in Münster, Germany (2007), where I studied speech perception using experimentation \& biomedical imaging technologies. Before that, as a volunteer student, I began my journey with data using a no. 2 pencil and a microscope in a neuroanatomy lab at UCLA (1999). So I've been around data for over half my life! 
+
+  As a University of Washington (UW) staff research scientist, I have overseen the development of end-to-end data acquisition, wrangling, \& ETL pipelines for experimental human health data, including dense-array timeseries and radiological imaging datasets.
+
+  \begin{itemize}
+    \item Since my promotion to staff scientist (2014), I have improved the efficiency and replicability of hypothesis testing procedures by leveraging machine learning routines into ETL pipelines for dense array sensor data.
+    \item Enhanced testing reliability by daisy chaining ML routines for classification (LOGIT, Regression) and feature selection (random forest) into case-control (A/B testing) pipelines.
+    \item As a UW postdoctoral fellow (2011--2014), I used PYTHON programming language to build standardized workflows for reproducible data processing and quality control protocols.
+    \item Oversee the strategic planning of paradigms, budgets, and grants---both Federal and Private philanthropic, as well as timely communications of deliverables to business partners.
+  \end{itemize}
+
+  Before joining the UW, I was a research fellow at the Children's Hospital of Philadelphia (2008--2011). I was responsible for devising experimental methods to improve the diagnosis of autism spectrum disorder (ASD) in children using biomedical data streams.
+
+  \begin{itemize}
+    \item I developed a behavioral imaging exam to help classify ASD and controls in an NIH-funded case-control project spanning departments in CHOP and the University of Pennsylvania. The resulting paradigm was published in the journal Neuro Report (2011a).
+    \item My paradigm also significantly improved the reliability of pre-operative surgical mapping exams for treatments in pediatric epilepsy. For outstanding translational research, I was awarded an educational loan repayment award by the National Institutes of Health.
+  \end{itemize}
+
+  My work is at the intersection of experimental psychology and data science---educated in the former and self-taught in the arts of the latter. I am looking for data scientist roles in the health industry to develop advanced ML \& ethical AI analytics in an agile business environment. I am excited to learn more about the opportunities at XXX and how I can contribute to your team.  %FIXME 
+
+  I look forward to hearing from you to discuss how I can best meet your needs. Thank you for your time and consideration.
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
