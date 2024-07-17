@@ -26,41 +26,41 @@
 %-------------------------------------------------------------------------------
 %                3rd party packages
 %-------------------------------------------------------------------------------
-% Needed to make fixed length table
+% make fixed length table
 \RequirePackage{array}
-% Needed to handle list environment
+% handle list environment
 \RequirePackage{enumitem}
-% Needed to handle text alignment
+% handle text alignment
 \RequirePackage{ragged2e}
-% Needed to configure page layout
+% configure page layout
 \RequirePackage{geometry}
-% Needed to make header & footer effeciently
+% make header & footer effeciently
 \RequirePackage{fancyhdr}
-% Needed to manage colors
+% manage colors
 \RequirePackage{xcolor}
-% Needed to use \ifxetex-\else-\fi statement
+% use \ifxetex-\else-\fi statement
 \RequirePackage{ifxetex}
-% Needed to use \if-\then-\else statement
+% use \if-\then-\else statement
 \RequirePackage{xifthen}
-% Needed to use a toolbox of programming tools
+% use a toolbox of programming tools
 \RequirePackage{etoolbox}
-% Needed to change line spacing in specific environment
+% change line spacing in specific environment
 \RequirePackage{setspace}
-% Needed to manage fonts
+% manage fonts
 \RequirePackage[quiet]{fontspec}
 % To support LaTeX quoting style
 \defaultfontfeatures{Ligatures=TeX}
-% Needed to manage math fonts
+% manage math fonts
 \RequirePackage{unicode-math}
-% Needed to use icons from font-awesome
+% use icons from font-awesome
 \RequirePackage{fontawesome5}
 \RequirePackage{roboto}
 \RequirePackage[default,opentype]{sourcesanspro}
 % Needed for the photo ID
 \RequirePackage[skins]{tcolorbox}
-% Needed to deal a paragraphs
+% deal a paragraphs
 \RequirePackage{parskip}
-% Needed to deal hyperlink
+% deal hyperlink
 \RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
 \hypersetup{%
   pdftitle={},
@@ -474,7 +474,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -498,7 +498,7 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://www.\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
+          \href{https://www.linkedin.com/in/\@linkedin}{\faLinkedin\acvHeaderIconSep\@linkedin}%
         }%
       \ifthenelse{\isundefined{\@orcid}}%
         {}%
@@ -695,6 +695,13 @@
   \skilltypestyle{#1} & \skillsetstyle{#2} \\
 }
 
+\newcommand*{\cvskilltop}[2]{%
+  \begin{minipage}[t]{\linewidth}
+    \textbf{#1} \\ #2
+  \end{minipage}
+  \\
+}
+
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
@@ -761,6 +768,7 @@
     }
 }
 
+<<<<<<< HEAD
 %-------------------------------------------------------------------------------
 %                Bibliography
 %-------------------------------------------------------------------------------
@@ -911,3 +919,153 @@
   {\addcomma\space}
   {}
 }
+=======
+
+ %-------------------------------------------------------------------------------
+ %                Bibliography
+ %-------------------------------------------------------------------------------
+ %\RequirePackage[style=verbose, maxnames=99, sorting=ydnt]{biblatex}
+ \RequirePackage[ % BibLaTeX
+ 	sorting=ydnt, % Sorts entries by year (descending order), name, title
+ 	style=verbose,
+ 	doi=false,
+ 	isbn=true,
+ 	url=false,
+ 	eprint=false,
+ 	backref = false, % include back references in bibliography
+ 	maxcitenames=3, % affects only the citations in the document body
+ 	maxbibnames=99, % affects only the bibliography, pass 99 to print all
+ 	hyperref=true,
+ 	block=none,
+ 	backend=biber % {Options: bibtex, biber}
+ 	]{biblatex}
+
+ % Avoid splitting entries across page break (only for 3 or fewer lines)
+ % Tip: http://tex.stackexchange.com/a/51261
+ \AtBeginEnvironment{thebibliography}{%
+    \clubpenalty10000
+    \@clubpenalty \clubpenalty
+    \widowpenalty10000
+    \interlinepenalty5000}
+
+ % Customized format, based on Fancy CV template created by Adrien Friggeri
+ \DeclareFieldFormat[article]{title}{#1\par}
+ \DeclareFieldFormat[inproceedings]{title}{#1\par}
+ \DeclareFieldFormat[misc]{title}{#1\par}
+ \DeclareFieldFormat[report]{title}{#1\par}
+ \DeclareFieldFormat[incollection]{title}{#1\par}
+
+ \DeclareBibliographyDriver{article}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \printfield{title}%
+   \newblock%
+   \printnames{author}%
+   \par%
+   \newblock%
+   {%
+     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+     \usebibmacro{journal}%
+     \setunit{\space}%
+     \printfield{pages}%
+     \newunit%
+     \printlist{publisher}%
+     \setunit*{\addcomma\space}%
+     \printfield{year}%
+     \newunit%
+   }
+   \par\vspace{0.3\baselineskip}
+ }
+
+ \DeclareBibliographyDriver{inproceedings}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \printfield{title}%
+   \newblock%
+   \printnames{author}%
+   \par%
+   \newblock%
+   {%
+     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+     \printfield{booktitle}%
+     \setunit{\addcomma\space}%
+     \printfield{year}%
+     \setunit{\addcomma\space}%
+     \printlist{location}%
+     \newunit%
+   }
+   \par\vspace{0.3\baselineskip}
+ }
+
+ \DeclareBibliographyDriver{incollection}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \printfield{title}%
+   \newblock%
+   \printnames{author}%
+   \par%
+   \newblock%
+   {%
+     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+     \printfield{booktitle}%
+     \setunit{\addcomma\space}%
+     \printfield{year}%
+     \setunit{\addcomma\space}%
+     \printlist{location}%
+     \newunit%
+   }
+   \par\vspace{0.3\baselineskip}
+ }
+
+ \DeclareBibliographyDriver{misc}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \printfield{title}%
+   \newblock%
+   \printnames{author}%
+   \par%
+   \newblock%
+   {%
+     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+     \printfield{booktitle}%
+     \setunit*{\addcomma\space}%
+     \printfield{note}%
+     \setunit*{\addcomma\space}%
+     \printfield{year}%
+     \setunit{\addcomma\space}%
+     \printlist{location}%
+     \newunit%
+   }
+   \par\vspace{0.3\baselineskip}
+ }
+
+ \DeclareBibliographyDriver{report}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \printfield{title}%
+   \newblock%
+   \printnames{author}%
+   \par%
+   \newblock%
+   {%
+     \fontsize{8pt}{1em}\bodyfontlight\color{graytext}%
+     \printfield{type}%
+     \setunit{\space}%
+     \printfield{number}%
+     \setunit{\addcomma\space}%
+     \printfield{year}%
+     \newunit%
+   }
+   \par\vspace{0.3\baselineskip}
+ }
+
+ % New syntax for flexible backend (BibLaTeX > v3.3)
+ \DeclareNameFormat{author}{%
+   \fontsize{9pt}{1em}\bodyfont%
+   \renewcommand*{\multinamedelim}{\addcomma\addspace}%
+   \nameparts{#1}%
+   \ifthenelse{\value{listcount}=1}
+     {\ifblank{\namepartgiven}{}{\namepartgiven\space}%
+     \namepartfamily}%
+     {\ifblank{\namepartgiven}{}{\namepartgiven\space}%
+     \namepartfamily}%
+   \ifthenelse{\value{listcount}<\value{liststop}}
+   {\addcomma\space}
+   {}
+ }
+>>>>>>> upstream/RussellGroupCV

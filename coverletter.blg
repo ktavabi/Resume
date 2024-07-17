@@ -1,0 +1,8 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'coverletter.blg'
+[65] biber-darwin:340> INFO - === Mon Jul  3, 2023, 11:24:10
+[104] Biber.pm:418> INFO - Reading 'coverletter.bcf'
+[194] Utils.pm:409> ERROR - Error: Found biblatex control file version 3.10, expected version 3.8.
+This means that your biber (2.17) and biblatex (3.19) versions are incompatible.
+See compat matrix in biblatex or biber PDF documentation.
+[194] Biber.pm:135> INFO - ERRORS: 1

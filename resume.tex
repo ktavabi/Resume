@@ -36,6 +36,7 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
+<<<<<<< HEAD
 % \photo[rectangle,edge,right]{./profile}
 \name{Kambiz}{Tavabi Ph.D.}
 \position{Research Scientist{\enskip\cdotp\enskip}Neuroscience Expert}
@@ -47,6 +48,19 @@
 \homepage{ktavabi.github.io/}
 % \github{github.com/ktavabi}
 \linkedin{linkedin.com/in/kambiz-tavabi-93255326b}
+=======
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Doe}{John}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{YOUR ADDRESS}
+
+\mobile{000000000000}
+\email{thisis@fakeemail.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{themagicalmammal.vercel.app} 
+\github{themagicalmammal}
+\linkedin{themagicalmammal}
+>>>>>>> upstream/RussellGroupCV
 % \gitlab{gitlab-id}
 % \stackoverflow{1634460}{kambiz}
 % \twitter{@twit}
@@ -69,6 +83,11 @@
 
 
 %-------------------------------------------------------------------------------
+ %	BIBLIOGRAPHY
+ %-------------------------------------------------------------------------------
+\addbibresource{cv/references.bib}
+
+%-------------------------------------------------------------------------------
 \begin{document}
 
 % Print the header with above personal informations
@@ -82,7 +101,6 @@
 {}
 {\thepage}
 
-
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
@@ -91,11 +109,17 @@
 \input{cv/experience.tex}
 \input{cv/education.tex}
 \input{cv/achievements.tex}
+<<<<<<< HEAD
 \input{cv/skills.tex}
 %\input{cv/languages.tex}
 \input{cv/projects.tex}
 \input{cv/publications.tex}
 %\input{cv/interests.tex}
+=======
+\input{cv/publications.tex}
+\input{cv/interests.tex}
+\input{cv/languages.tex}
+>>>>>>> upstream/RussellGroupCV
 
 \vspace*{\fill}
 %\centering{\textbf{References available upon request.}}
