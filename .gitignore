@@ -7,21 +7,142 @@
 *.fls
 *.out
 *.toc
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
 
 ## BibLaTeX auxiliary files:
 *.bbl
 *.bcf
 *.blg
+*.biber
 
 ## Intermediate documents:
 *.dvi
 *-converted-to.*
+*.xdv
+
+## LaTeX Beamer:
+*.nav
+*.pre
+*.snm
+*.vrb
+
+## LaTeXmk:
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+## MiKTeX:
+*.miktex
+
+## TeXnicCenter:
+*.tps
+
+## TeXworks editor:
+*.synctex(busy)
+*.synctex.gz(busy)
+
+## VSCode:
+*.synctex.gz
 
 ### Editor ###
 ## Vim & Emacs temp files:
 .*sw[op]
 *~
+*~
 
-### Mac OS X ###
-## Mac OS X metadata files:
+## VSCode:
+.vscode/
+*.code-workspace
+
+## Sublime Text:
+*.sublime-project
+*.sublime-workspace
+
+## Atom:
+.atom/
+
+## JetBrains IDEs:
+.idea/
+*.iml
+*.ipr
+*.iws
+
+## Vim:
+*.swp
+*.swo
+*~
+
+## Emacs:
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+### System ###
+## Mac OS X:
 *.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+## Windows:
+*.lnk
+*.tmp
+*.temp
+desktop.ini
+
+## Linux:
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+### Build and Package ###
+## Temporary files:
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+## Archive files:
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+### LaTeX Specific ###
+## Custom class files (if you want to ignore them):
+# *.cls
+
+## Bibliography:
+*.bib.bak
+
+## Log files:
+*.log.bak
+
+## Backup files:
+*.tex.bak
+*.tex~
+
+## PDF files:
+*.pdf
+
+## HTML files:
+*.html
+
+## CSS files:
+*.css
+
+## markdown files:
+*.md
