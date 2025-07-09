@@ -1,0 +1,672 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{ydnt/global//global/global}
+    \entry{bosseler2021}{article}{}
+      \name{author}{7}{}{%
+        {{hash=4404ac5b3238aeb28656eef5e9f2e0da}{%
+           family={Bosseler},
+           familyi={B\bibinitperiod},
+           given={Alexis\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=d7a93fefb7cba401dd6c03176a494beb}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={Maggie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=324a4d468a868c869a8081dadad8d06a}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric\bibnamedelima D.},
+           giveni={E\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e48414603e16352eb1a24d519601b9b3}{%
+           family={Hippe},
+           familyi={H\bibinitperiod},
+           given={Daniel\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=844ebae575295c63805015ebcdc66be1}{%
+           family={Taulu},
+           familyi={T\bibinitperiod},
+           given={Samu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=0c9477d4c80fefc973fa8198edeb9ea0}{%
+           family={Kuhl},
+           familyi={K\bibinitperiod},
+           given={Patricia\bibnamedelima K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7e4c2c74d4ff9654b6ff77e1ba5abc3b}
+      \strng{fullhash}{16cafc725ce975fa43d61b29e8bea38f}
+      \strng{bibnamehash}{16cafc725ce975fa43d61b29e8bea38f}
+      \strng{authorbibnamehash}{16cafc725ce975fa43d61b29e8bea38f}
+      \strng{authornamehash}{7e4c2c74d4ff9654b6ff77e1ba5abc3b}
+      \strng{authorfullhash}{16cafc725ce975fa43d61b29e8bea38f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Word learning is a significant milestone in language acquisition. The second year of life marks a period of dramatic advances in infants' expressive and receptive word-processing abilities. Studies show that in adulthood, language processing is left-hemisphere dominant. However, adults learning a second language activate right-hemisphere brain functions. In infancy, acquisition of a first language involves recruitment of bilateral brain networks, and strong left-hemisphere dominance emerges by the third year. In the current study we focus on 14-month-old infants in the earliest stages of word learning using infant magnetoencephalography (MEG) brain imagining to characterize neural activity in response to familiar and unfamiliar words. Specifically, we examine the relationship between right-hemisphere brain responses and prospective measures of vocabulary growth. As expected, MEG source modeling revealed a broadly distributed network in frontal, temporal and parietal cortex that distinguished word classes between 150–900\,ms after word onset. Importantly, brain activity in the right frontal cortex in response to familiar words was highly correlated with vocabulary growth at 18, 21, 24, and 27 months. Specifically, higher activation to familiar words in the 150–300\,ms interval was associated with faster vocabulary growth, reflecting processing efficiency, whereas higher activation to familiar words in the 600–900\,ms interval was associated with slower vocabulary growth, reflecting cognitive effort. These findings inform research and theory on the involvement of right frontal cortex in specific cognitive processes and individual differences related to attention that may play an important role in the development of left-lateralized word processing.}
+      \field{issn}{1878-9293}
+      \field{journaltitle}{Developmental Cognitive Neuroscience}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{title}{Using Magnetoencephalography to Examine Word Recognition, Lateralization, and Future Language Skills in 14-Month-Old Infants}
+      \field{volume}{47}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{100901}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.dcn.2020.100901
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/EWEXX7HR/Bosseler et al_2021_Using magnetoencephalography to examine word recognition, lateralization, and.pdf
+      \endverb
+      \keyw{Attention,Infants,Language,Magnetoencephalography,Right hemisphere}
+    \endentry
+    \entry{joo2021}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d44f0347756bcedad17899ad15aa26a3}{%
+           family={Joo},
+           familyi={J\bibinitperiod},
+           given={Sung\bibnamedelima Jun},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c14d7740ed14ef029810d15200e8628b}{%
+           family={Caffarra},
+           familyi={C\bibinitperiod},
+           given={Sendy},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8767b08c3125e5e230504621081b74b3}{%
+           family={Yeatman},
+           familyi={Y\bibinitperiod},
+           given={Jason\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{774357a88bc81df2fce2659b3da19e99}
+      \strng{fullhash}{0c11a6eb4c0715cfd2b049fcd259b03b}
+      \strng{bibnamehash}{0c11a6eb4c0715cfd2b049fcd259b03b}
+      \strng{authorbibnamehash}{0c11a6eb4c0715cfd2b049fcd259b03b}
+      \strng{authornamehash}{774357a88bc81df2fce2659b3da19e99}
+      \strng{authorfullhash}{0c11a6eb4c0715cfd2b049fcd259b03b}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Skilled reading requires years of practice associating visual symbols with speech sounds. Over the course of the learning process, this association becomes effortless and automatic. Here we test whether automatic activation of spoken-language circuits in response to visual words is a hallmark of skilled reading. Magnetoencephalography was used to measure word-selective responses under multiple cognitive tasks (N = 42, 7-12 years of age). Even when attention was drawn away from the words by performing an attention-demanding fixation task, strong word-selective responses were found in a language region (i.e., superior temporal gyrus) starting at \textasciitilde 300 ms after stimulus onset. Critically, this automatic word-selective response was indicative of reading skill: the magnitude of word-selective responses correlated with individual reading skill. Our results suggest that automatic recruitment of spoken-language circuits is a hallmark of skilled reading; with practice, reading becomes effortless as the brain learns to automatically translate letters into sounds and meaning.}
+      \field{issn}{0093-934X}
+      \field{journaltitle}{Brain and language}
+      \field{month}{3}
+      \field{title}{Automaticity in the Reading Circuitry}
+      \field{volume}{214}
+      \field{year}{2021}
+      \true{nocite}
+      \field{pages}{104906}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.bandl.2020.104906
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/ZTQ2452M/Joo et al_2021_Automaticity in the reading circuitry.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{clarke2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d7a93fefb7cba401dd6c03176a494beb}{%
+           family={Clarke},
+           familyi={C\bibinitperiod},
+           given={Maggie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=844ebae575295c63805015ebcdc66be1}{%
+           family={Taulu},
+           familyi={T\bibinitperiod},
+           given={Samu},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3fb54dfcaa579526d0b5f730d61d6d2}
+      \strng{fullhash}{75ce5b07f941c0b8dbcc274049decd67}
+      \strng{bibnamehash}{75ce5b07f941c0b8dbcc274049decd67}
+      \strng{authorbibnamehash}{75ce5b07f941c0b8dbcc274049decd67}
+      \strng{authornamehash}{a3fb54dfcaa579526d0b5f730d61d6d2}
+      \strng{authorfullhash}{75ce5b07f941c0b8dbcc274049decd67}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background Magnetoencephalography (MEG) is an excellent non-invasive tool to study the brain. However, measurements often suffer from the contribution of external interference, including noise from the sensors. Suppression of noise from the data is critical for an accurate representation of brain signals. Due to MEG's limited spatial resolution and superior temporal resolution, noise suppression methods that operate in the temporal domain can be favorable. New Method We examined the independent and joint effects of two temporal projection noise suppression algorithms for MEG measurements: One commonly used algorithm which suppresses correlated noise; temporal signal space separation (tSSS) and one new method which suppresses uncorrelated sensor noise; oversampled temporal projection (OTP). Results We found that both OTP and tSSS effectively suppress noise in raw MEG data and have the greatest effect of joint operation in cases where SNR is low, or when detecting higher SNR single-trial responses from raw data. We additionally demonstrate how the combination of OTP and tSSS is useful for the detectability of high-frequency brain oscillations (HFO). Comparison with existing Methods Although the mathematical description of OTP has been described before (Larson and Taulu, 2017), OTP's effect on HFOs in MEG data is novel. Additionally, the combination of OTP and commonly used temporal noise suppression algorithms (i.e., tSSS) has not been shown. Conclusions This finding is applicable to clinical populations such as epilepsy, where HFO signals are thought to be important markers for areas of seizure onset and are typically difficult to detect with non-invasive neuroimaging methods.}
+      \field{issn}{0165-0270}
+      \field{journaltitle}{Journal of Neuroscience Methods}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{Effectively Combining Temporal Projection Noise Suppression Methods in Magnetoencephalography}
+      \field{volume}{341}
+      \field{year}{2020}
+      \true{nocite}
+      \field{pages}{108700}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jneumeth.2020.108700
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/DAL6TKR3/Clarke et al_2020_Effectively combining temporal projection noise suppression methods in.pdf;/Users/kam/Zotero/storage/3JQJE3MP/S0165027020301230.html
+      \endverb
+      \keyw{Artifact suppression,HFO,Magnetoencephalography,Sensor noise suppression,Temporal projection}
+    \endentry
+    \entry{appelhoff2019}{article}{}
+      \name{author}{16}{}{%
+        {{hash=e051de4cde02884a9c209f76e9ffc6d4}{%
+           family={Appelhoff},
+           familyi={A\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e9c06ba024c52ba4a7558b42ba625956}{%
+           family={Sanderson},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=483230ccb88a3e897d392c835dcc4f84}{%
+           family={Brooks},
+           familyi={B\bibinitperiod},
+           given={Teon},
+           giveni={T\bibinitperiod}}}%
+        {{hash=9bafa79c68eec010b007078153701632}{%
+           family={{van Vliet}},
+           familyi={v\bibinitperiod},
+           given={Marijn},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6c908f2e4048a454c96c3278a5e62abb}{%
+           family={Quentin},
+           familyi={Q\bibinitperiod},
+           given={Romain},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b360ac3dbeabbee5f23f364b89f29885}{%
+           family={Holdgraf},
+           familyi={H\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+        {{hash=44cfa54faf003b71ccc02a61022efe08}{%
+           family={Chaumon},
+           familyi={C\bibinitperiod},
+           given={Maximilien},
+           giveni={M\bibinitperiod}}}%
+        {{hash=645f7dc7dd5675a0f3159a5e418e9846}{%
+           family={Mikulan},
+           familyi={M\bibinitperiod},
+           given={Ezequiel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bae96ab1c1a55e1e9e83948109508857}{%
+           family={Höchenberger},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=180cdc11e481ba81bd0e43fe59b802de}{%
+           family={Welke},
+           familyi={W\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=0ccec42499932e5a324213d9000a9cb4}{%
+           family={Brunner},
+           familyi={B\bibinitperiod},
+           given={Clemens},
+           giveni={C\bibinitperiod}}}%
+        {{hash=50a5b1cadc64dd79084f66f651a74ff3}{%
+           family={Rockhill},
+           familyi={R\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8d336f110675c46226ece1db501ce712}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+        {{hash=12ebe424e1c87de156c57e8fa7683f46}{%
+           family={Gramfort},
+           familyi={G\bibinitperiod},
+           given={Alexandre},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c93977299341e213a29312b64c0e3016}{%
+           family={Jas},
+           familyi={J\bibinitperiod},
+           given={Mainak},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{604301b365b0dfc570786297bd5d5d45}
+      \strng{fullhash}{1145b2edf04b5938a81d8b052c7559fe}
+      \strng{bibnamehash}{1145b2edf04b5938a81d8b052c7559fe}
+      \strng{authorbibnamehash}{1145b2edf04b5938a81d8b052c7559fe}
+      \strng{authornamehash}{604301b365b0dfc570786297bd5d5d45}
+      \strng{authorfullhash}{1145b2edf04b5938a81d8b052c7559fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The development of the Brain Imaging Data Structure (BIDS; Gorgolewski et al., 2016) gave the neuroscientific community a standard to organize and share data. BIDS prescribes file naming conventions and a folder structure to store data in a set of already existing file formats. Next to rules about organization of the data itself, BIDS provides standardized templates to store associated metadata in the form of Javascript Object Notation (JSON) and tab separated value (TSV) files. It thus facilitates data sharing, eases metadata querying, and enables automatic data analysis pipelines. BIDS is a rich system to curate, aggregate, and annotate neuroimaging databases.}
+      \field{annotation}{https://web.archive.org/web/20221224002226/https://joss.theoj.org/papers/10.21105/joss.01896}
+      \field{issn}{2475-9066}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{44}
+      \field{shorttitle}{{{MNE-BIDS}}}
+      \field{title}{{{MNE-BIDS}}: {{Organizing}} Electrophysiological Data into the {{BIDS}} Format and Facilitating Their Analysis}
+      \field{volume}{4}
+      \field{year}{2019}
+      \true{nocite}
+      \field{pages}{1896}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.01896
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/8NHTS25T/Appelhoff et al. - 2019 - MNE-BIDS Organizing electrophysiological data int.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{roberts2011}{article}{}
+      \name{author}{9}{}{%
+        {{hash=e53fd63ba30389052261c5e03cf784e7}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Timothy\bibnamedelima P.L.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=862413d1b99af1ced5a3d2241bb46b30}{%
+           family={Cannon},
+           familyi={C\bibinitperiod},
+           given={Katelyn\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8b0dd6fa0ede1305f1a1bf40a102ae48}{%
+           family={Blaskey},
+           familyi={B\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c1e816629488462a99afece89e86b3e3}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Sarah\bibnamedelima Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=8f9b484e7cc533657df15301e2a580f0}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={Justin\bibnamedelima F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=14f85d979ff4f2c6585451165ee6162c}{%
+           family={Qasmieh},
+           familyi={Q\bibinitperiod},
+           given={Saba},
+           giveni={S\bibinitperiod}}}%
+        {{hash=101270fc5a272b759b0a0e274371a1b2}{%
+           family={Levy},
+           familyi={L\bibinitperiod},
+           given={Susan\bibnamedelima E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9be03fb95361595c1d6970b7f3dadb21}{%
+           family={Edgar},
+           familyi={E\bibinitperiod},
+           given={J.\bibnamedelimi Christopher},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{41bf146d39aee1edff7558322723c6e4}
+      \strng{fullhash}{0f868206640dcb8afe91930895c51971}
+      \strng{bibnamehash}{0f868206640dcb8afe91930895c51971}
+      \strng{authorbibnamehash}{0f868206640dcb8afe91930895c51971}
+      \strng{authornamehash}{41bf146d39aee1edff7558322723c6e4}
+      \strng{authorfullhash}{0f868206640dcb8afe91930895c51971}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Background Auditory processing abnormalities are frequently observed in Autism Spectrum Disorders (ASD), and these abnormalities may have sequelae in terms of clinical language impairment (LI). The present study assessed associations between language impairment and the amplitude and latency of the superior temporal gyrus magnetic mismatch field (MMF) in response to changes in an auditory stream of tones or vowels. Methods 51 children with ASD and 27 neurotypical controls, all aged 6-15 years, underwent neuropsychological evaluation, including tests of language function, as well as magnetoencephalographic (MEG) recording during presentation of tones and vowels. The MMF was identified in the difference waveform obtained from subtraction of responses to standard stimuli from deviant stimuli. Results MMF latency was significantly prolonged (p{$<$}0.001) in children with ASD compared to neurotypical controls. Furthermore, this delay was most pronounced ({$\sim$}50ms) in children with concomitant LI, with significant differences in latency between children with ASD with LI and those without (p{$<$}0.01). Receiver operator characteristic analysis indicated a sensitivity of 82.4\% and specificity of 71.2\% for diagnosing LI based on MMF latency. Conclusion Neural correlates of auditory change detection (the MMF) are significantly delayed in children with ASD, and especially those with concomitant LI suggesting both a neurobiological basis for LI as well as a clinical biomarker for LI in ASD.}
+      \field{issn}{0006-3223}
+      \field{journaltitle}{Biological psychiatry}
+      \field{month}{8}
+      \field{number}{3}
+      \field{shorttitle}{Auditory {{Magnetic Mismatch Field Latency}}}
+      \field{title}{Auditory {{Magnetic Mismatch Field Latency}}: {{A Biomarker}} for {{Language Impairment}} in {{Autism}}}
+      \field{volume}{70}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{263\bibrangedash 269}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.biopsych.2011.01.015
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/7A9V5QMS/Roberts et al_2011_Auditory Magnetic Mismatch Field Latency.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{tavabi2011a}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f47acd9e2e688081f64f9eee64c2b0ca}{%
+           family={Embick},
+           familyi={E\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e53fd63ba30389052261c5e03cf784e7}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Timothy\bibnamedelima P.L.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{fullhash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{bibnamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authorbibnamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authornamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authorfullhash}{6de3fedfe77967179947f6d20ab71402}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{https://web.archive.org/web/20221224001423/https://journals.lww.com/neuroreport/Abstract/2011/07130/Spectral\_temporal\_analysis\_of\_cortical.3.aspx}
+      \field{issn}{0959-4965}
+      \field{journaltitle}{NeuroReport}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{10}
+      \field{title}{Spectral–Temporal Analysis of Cortical Oscillations during Lexical Processing}
+      \field{volume}{22}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{474\bibrangedash 478}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1097/WNR.0b013e3283476b84
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/V3PZADIU/Tavabi et al. - 2011 - Spectral–temporal analysis of cortical oscillation.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{tavabi2011}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f47acd9e2e688081f64f9eee64c2b0ca}{%
+           family={Embick},
+           familyi={E\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e53fd63ba30389052261c5e03cf784e7}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Timothy\bibnamedelima P.L.},
+           giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{fullhash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{bibnamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authorbibnamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authornamehash}{6de3fedfe77967179947f6d20ab71402}
+      \strng{authorfullhash}{6de3fedfe77967179947f6d20ab71402}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Magnetoencephalography was used in a passive repetition priming paradigm. Words in two frequency bins (high/low) were presented to subjects auditorily. Subjects' brain responses to these stimuli were analyzed using synthetic aperture magnetometry. The main finding is that single word repetition of low frequency word pairs significantly attenuated the post-second word event related desynchronization in the theta-alpha (5–15Hz) bands, 200–600ms post second word stimulus onset. Peak significance between repeated high and low frequency words was evident at \textasciitilde 365–465ms post target onset. This finding has implications for (i) the role of theta-alpha ERD in lexical representation and access; (ii) the study of repetition suppression in the spectral-temporal domain; and (iii) the connection of neuronal repetition suppression with behavioral effects of repetition priming.}
+      \field{annotation}{https://web.archive.org/web/20221224000610/https://journals.lww.com/neuroreport/Abstract/2011/12070/Word\_repetition\_priming\_induced\_oscillations\_in.7.aspx}
+      \field{issn}{0959-4965}
+      \field{journaltitle}{NeuroReport}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{number}{17}
+      \field{shorttitle}{Word Repetition Priming-Induced Oscillations in Auditory Cortex}
+      \field{title}{Word Repetition Priming-Induced Oscillations in Auditory Cortex: A Magnetoencephalography Study}
+      \field{volume}{22}
+      \field{year}{2011}
+      \true{nocite}
+      \field{pages}{887\bibrangedash 891}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1097/WNR.0b013e32834ca576
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/SAMHZBC8/Tavabi et al. - 2011 - Word repetition priming-induced oscillations in au.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{tavabi2009}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=0c9c292df00c632745065cf1826980ba}{%
+           family={Elling},
+           familyi={E\bibinitperiod},
+           given={Ludger},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3e9c0d9faad90e38e6d8f50ea002850e}{%
+           family={Dobel},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5600098e5bd95c8c87457b498c4c0687}{%
+           family={Pantev},
+           familyi={P\bibinitperiod},
+           given={Christo},
+           giveni={C\bibinitperiod}}}%
+        {{hash=644f1ed4f1f239f19cd6c9e8e0122dd7}{%
+           family={Zwitserlood},
+           familyi={Z\bibinitperiod},
+           given={Pienie},
+           giveni={P\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=0c5566886fc290ab79c298a3a2e36b3f}{%
+           family={Warrant},
+           familyi={W\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ef25b4eff6a8a1c9987468f58f513b4}
+      \strng{fullhash}{08450c4e52988dcc9b73206fa25f53ab}
+      \strng{bibnamehash}{08450c4e52988dcc9b73206fa25f53ab}
+      \strng{authorbibnamehash}{08450c4e52988dcc9b73206fa25f53ab}
+      \strng{authornamehash}{1ef25b4eff6a8a1c9987468f58f513b4}
+      \strng{authorfullhash}{08450c4e52988dcc9b73206fa25f53ab}
+      \strng{editorbibnamehash}{0c5566886fc290ab79c298a3a2e36b3f}
+      \strng{editornamehash}{0c5566886fc290ab79c298a3a2e36b3f}
+      \strng{editorfullhash}{0c5566886fc290ab79c298a3a2e36b3f}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{In casual speech, phonemic segments often assimilate such that they adopt features from adjacent segments, a typical feature being their place of articulation within the vocal tract (e.g., labial, coronal, velar). Place assimilation (e.g., from coronal /n/ to labial /m/: rainbowR*raimbow) alters the surface form of words. Listeners' ability to perceptually compensate for such changes seems to depend on the phonemic context, on whether the adjacent segment (e.g., the /b/ in ``rainbow'') invites the particular change. Also, some assimilations occur frequently (e.g., /n/R/m/), others are rare (e.g., /m/R/n/). We investigated the effects of place assimilation, its contextual dependency, and its frequency on the strength of auditory evoked mismatch negativity (MMN) responses, using pseudowords. Results from magnetoencephalography (MEG) revealed that the MMN was modulated both by the frequency and contextual appropriateness of assimilations.}
+      \field{annotation}{https://web.archive.org/web/20221224000607/https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0004452}
+      \field{issn}{1932-6203}
+      \field{journaltitle}{PLoS ONE}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Effects of {{Place}} of {{Articulation Changes}} on {{Auditory Neural Activity}}}
+      \field{title}{Effects of {{Place}} of {{Articulation Changes}} on {{Auditory Neural Activity}}: {{A Magnetoencephalography Study}}}
+      \field{volume}{4}
+      \field{year}{2009}
+      \true{nocite}
+      \field{pages}{e4452}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0004452
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/X6S7D6N9/Tavabi et al. - 2009 - Effects of Place of Articulation Changes on Audito.pdf
+      \endverb
+      \keyw{archived}
+    \endentry
+    \entry{tavabi2007}{article}{}
+      \name{author}{4}{}{%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+        {{hash=ec3902d3ab555ca583b5bbc658cb5be6}{%
+           family={Obleser},
+           familyi={O\bibinitperiod},
+           given={Jonas},
+           giveni={J\bibinitperiod}}}%
+        {{hash=3e9c0d9faad90e38e6d8f50ea002850e}{%
+           family={Dobel},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=5600098e5bd95c8c87457b498c4c0687}{%
+           family={Pantev},
+           familyi={P\bibinitperiod},
+           given={Christo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ef25b4eff6a8a1c9987468f58f513b4}
+      \strng{fullhash}{8a838a844a43ae8ca6c7ae5fa7927f94}
+      \strng{bibnamehash}{8a838a844a43ae8ca6c7ae5fa7927f94}
+      \strng{authorbibnamehash}{8a838a844a43ae8ca6c7ae5fa7927f94}
+      \strng{authornamehash}{1ef25b4eff6a8a1c9987468f58f513b4}
+      \strng{authorfullhash}{8a838a844a43ae8ca6c7ae5fa7927f94}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The functional organization of speech sound processing in the human brain and its unfolding over time are still not well understood. While the N100 {$\fracslash$} N100m is a comparatively well-studied, and quite late, component of the auditory evoked field elicited by speech, earlier processes such as those reflected in the P50m remain to be resolved. Using magnetoencephalography, the present study follows up on previous reports of N100m-centred spatiotemporal encoding of phonological features and coarticulatory processes in the auditory cortex during consonant–vowel syllable perception. Our results indicate that the time course and response strength of the P50m and N100m components of evoked magnetic fields are differentially influenced by mutually exclusive place-of-articulation features of a syllable's stop consonant and vowel segments. Topographical differences in P50m generators were driven by place contrasts between consonants in syllables, with spatial gradients orthogonal to the ones previously reported for N100m. Peak latency results replicated previous findings for the N100m and revealed a reverse pattern for the earlier P50m (shorter latencies depending on the presence of a back vowel [o]). Our findings allow attribution of a role in basic feature extraction to the comparatively early P50m time window. Moreover, the observations substantiate the assumption that the N100m response reflects a more abstract phonological representational stage during speech perception.}
+      \field{issn}{0953816X}
+      \field{journaltitle}{European Journal of Neuroscience}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{10}
+      \field{shorttitle}{Auditory Evoked Fields Differentially Encode Speech Features}
+      \field{title}{Auditory Evoked Fields Differentially Encode Speech Features: An {{MEG}} Investigation of the {{P50m}} and {{N100m}} Time Courses during Syllable Processing: {{Evoked}} Fields Encode Speech Features}
+      \field{volume}{25}
+      \field{year}{2007}
+      \true{nocite}
+      \field{pages}{3155\bibrangedash 3162}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1111/j.1460-9568.2007.05572.x
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/FQSLGCVT/Tavabi et al. - 2007 - Auditory evoked fields differentially encode speec.pdf
+      \endverb
+    \endentry
+    \entry{villablanca2000}{article}{}
+      \name{author}{5}{}{%
+        {{hash=f8312ae41571188c42b5fff6d9b226ed}{%
+           family={Villablanca},
+           familyi={V\bibinitperiod},
+           given={Jaime\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f1e05febb0943c0a0becde87678e539b}{%
+           family={Schmanke},
+           familyi={S\bibinitperiod},
+           given={Troy\bibnamedelima D},
+           giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4e2e854d93ad3050cbbfd72abb179aad}{%
+           family={Crutcher},
+           familyi={C\bibinitperiod},
+           given={Harmony\bibnamedelima A},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b8f3c2cb009c601f3e7a5a156cbb77db}{%
+           family={Sung},
+           familyi={S\bibinitperiod},
+           given={Angie\bibnamedelima C},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2547a1dd9814c6a4a445dbbdc6ecf362}{%
+           family={Tavabi},
+           familyi={T\bibinitperiod},
+           given={Kambiz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{4a5cb1a442aa0186fdfb1f92c60f29d5}
+      \strng{fullhash}{a82c25eee6a41e73c1a8386173cd624e}
+      \strng{bibnamehash}{a82c25eee6a41e73c1a8386173cd624e}
+      \strng{authorbibnamehash}{a82c25eee6a41e73c1a8386173cd624e}
+      \strng{authornamehash}{4a5cb1a442aa0186fdfb1f92c60f29d5}
+      \strng{authorfullhash}{a82c25eee6a41e73c1a8386173cd624e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{As a continuation of the morphometric studies on the preceding paper, here we report on the rate of growth of the caudate nucleus (n.), thalamus, red n., and the substantia (s.) nigra using, with few exceptions, the same cohort of cats. The same previously used brains (n=64 cats) were allocated to the following age groups: fetal (E) 59 days, postnatal (P) days 1, 7, 15, 30, 45, 60, 90, 120, and 180. Sixteen additional cats, interspersed within the groups, were substituted for the red n. and s. nigra studies. There were six subjects per group (except for E59, n=4). Using a projection microscope and cytochrome oxidase-stained coronal sections, a combined (left plus right sides) total of 4693, 3822, 1636, and 1180 sections were drawn for the caudate, thalamus, s. nigra, and red n., respectively. With computer assistance, the drawings were digitized to calculate mean cross-sectional areas and then the mean volume of each structure per group. The growth time tables for the caudate n., thalamus and s. nigra were fairly synchronous. In terms of percentage of the adult volume, for the left side (both sides grew at a similar rate), the three structures grew at a fast pace between E59 and P30. Thus, at E59 their respective percentages relative to adult volume were 23.7, 29.8 and 22.6\% and by P30 the percentages were within adult range (85.2, 115.1 and 87.5\%, respectively). Starting at P30, for the thalamus and at P45 for the caudate n., there was a consistent tendency to an overgrow which ranged between 4.3 and 30.9\% (at P180, P{$<$}0.5) for the caudate and between 0.3 and 15.1\% for the thalamus. In addition, starting at P30, the right thalamus tended to be consistently larger than the left by a margin ranging between 0.5 and 11.2\% (P120, P{$<$}0.05). The red n. grew at a different, slower pace. Starting from a fetal volume equivalent to an 18.6\% of adult size, its volume was only a 61.0\% of the adult value at P30 and came within range of adulthood size only by P60 (81.3\%). Neither the s. nigra nor the red n. showed any consistent tendency to overgrow or to asymmetry. These findings are discussed in the context of the literature. Furthermore, we discuss general conclusions and considerations pertaining to both papers as well as draw comparisons with the maturational time tables of other developmental landmarks in cats. Finally, in a comparison with growth of human brain structures, we point at the limitations and complexities involved in studying human material and, noting interspecies similarities, we propose that the present data from an advanced gyrencephalic mammal may form the bases for a model of structures maturation in humans.}
+      \field{issn}{0165-3806}
+      \field{journaltitle}{Developmental Brain Research}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{1}
+      \field{shorttitle}{The Growth of the Feline Brain from Fetal into Adult Life}
+      \field{title}{The Growth of the Feline Brain from Fetal into Adult Life: {{II}}. {{A}} Morphometric Study of Subcortical Nuclei}
+      \field{volume}{122}
+      \field{year}{2000}
+      \true{nocite}
+      \field{pages}{21\bibrangedash 33}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S0165-3806(00)00047-X
+      \endverb
+      \verb{file}
+      \verb /Users/kam/Zotero/storage/TAN6J5U5/S016538060000047X.html
+      \endverb
+      \keyw{Feline brain,Growth,Morphometric study,Subcortical nuclei}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
