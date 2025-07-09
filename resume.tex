@@ -1,0 +1,112 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, letterpaper]{russell}
+
+% Configure page margins with geometry
+\geometry{left=1.3cm, top=1.3cm, right=1.4cm, bottom=1.3cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-emerald}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\infty\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./profile}
+\name{Kambiz}{Tavabi Ph.D.}
+\position{Business Intelligence Manager{\enskip\cdotp\enskip}Data Science Expert}
+\address{Seattle, WA}
+
+\mobile{206\cdotp719\cdotp3524}
+\email{ktavabi@gmail.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{ktavabi.github.io/}
+% \github{github.com/ktavabi}
+\linkedin{kambiz-tavabi-93255326b}
+% \gitlab{gitlab-id}
+% \stackoverflow{1634460}{kambiz}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kambizio}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+\googlescholar{VO6NMiEAAAAJ\&hl}{Kambiz Tavabi PhD}
+% \extrainfo{extra information}
+
+% \quote{``Simplicity is deceptively complicated."}
+
+%-------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%-------------------------------------------------------------------------------
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+
+%-------------------------------------------------------------------------------
+ %	BIBLIOGRAPHY
+ %-------------------------------------------------------------------------------
+\addbibresource{cv/references.bib}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{\today}
+{}
+{\thepage}
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\input{cv/summary.tex}
+\vspace{1mm}
+\input{cv/experience.tex}
+\vspace{1mm}
+\input{cv/education.tex}
+\vspace{1mm}
+\input{cv/achievements.tex}
+\vspace{1mm}
+\input{cv/skills.tex}
+\vspace{1mm}
+\input{cv/projects.tex}
+\vspace{1mm}
+\input{cv/publications.tex}
+%\input{cv/interests.tex}
+
+\vspace*{\fill}
+%\centering{\textbf{References available upon request.}}
+%-------------------------------------------------------------------------------
+\end{document}

@@ -1,0 +1,154 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[10.5pt, letterpaper]{russell}
+% \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+% \addbibresource{} % Empty bib resource to prevent warning
+
+% Configure page margins with geometry
+\geometry{left=1.2cm, top=1.2cm, right=1.2cm, bottom=1.2cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\infty\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[rectangle,edge,right]{./examples/profile}
+\name{Kambiz}{Tavabi Ph.D.}
+\position{Business Intelligence Manager{\enskip\cdotp\enskip}Data Science Expert}
+\address{Seattle, WA.}
+
+\mobile{206\cdotp719\cdotp3524}
+\email{ktavabi@gmail.com}
+% \dateofbirth{January 1st, 1970}
+\homepage{ktavabi.github.io/}
+% \github{github.com/ktavabi}
+\linkedin{kambiz-tavabi-93255326b}
+% \gitlab{gitlab-id}
+%\stackoverflow{1634460}{kambiz}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \kaggle{kambizio}
+% \googlescholar{VO6NMiEAAAAJ\&hl}{Kambiz Tavabi}
+%% \firstname and \lastname will be used
+\googlescholar{VO6NMiEAAAAJ\&hl}{Kambiz Tavabi PhD}
+% \extrainfo{extra information}
+
+% \quote{``Simplicity is deceptively complicated."}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Atlassian}%
+  {Seattle, WA} % FIXME
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Senior Data Scientist, Experimentation} % FIXME
+% How the letter is opened
+\letteropening{\newline Dear Atlassian Hiring Team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Résumé}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+{\today}
+{Kambiz Tavabi~~~·~~~Cover Letter}
+{\thepage}
+
+% Print the title with above letter information
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+  I am writing to express my strong interest in the Senior Data Scientist, Experimentation position within Atlassian's Corporate Engineering Organization. With a Ph.D. in Neuroscience and 15 years of experience designing and analyzing large-scale experiments, I am excited to contribute to Atlassian's mission of unleashing the potential of every team through data-driven experimentation practices.
+
+  \textbf{Experimental Design and Statistical Rigor at Scale}
+
+  My background uniquely positions me to drive experimentation practices at Atlassian. As Business Intelligence Manager at Washington State Department of Corrections, I currently oversee analytics and operational monitoring and research that inform policy decisions affecting thousands of individuals across the state. This role requires the exact combination of statistical rigor and business practicality that Atlassian seeks—delivering actionable insights under tight timelines while maintaining the highest standards of experimental design.
+
+  At the University of Washington's Institute for Learning \& Brain Sciences, I conducted longitudinal case-control studies with sophisticated experimental paradigms, analyzing data from cohorts spanning multiple years. My expertise includes advanced statistical methods such as mixed-effects modeling, survival analysis, and causal inference techniques—directly applicable to the multi-arm bandits and causal inference methods mentioned in your job description. I have consistently navigated the "80/20 rule" you emphasize, delivering high-quality analyses that prioritize business impact over theoretical perfection.
+
+  \textbf{Cross-Functional Collaboration and Communication}
+
+  Throughout my career, I have excelled at translating complex statistical concepts to diverse audiences. I regularly present findings to department leadership, policymakers, and academic researchers, crafting compelling narratives from complex datasets. My current role requires collaborating with stakeholders across corrections staff, policy teams, and external academic partners—experience that directly translates to working with Atlassian's GTM, growth, product, and engineering teams.
+
+  I have led teams of analysts while serving as a subject matter expert to senior leadership, providing the kind of experimentation expertise and training that your team delivers across Atlassian. My ability to break down complex challenges into manageable components has been essential in managing research portfolios that span multiple concurrent studies with varying timelines and stakeholder needs.
+
+  \textbf{Technical Excellence in Experimentation}
+
+  My technical foundation strongly aligns with Atlassian's requirements. I have extensive experience with:
+
+  \begin{itemize}
+    \item \textbf{Advanced Statistical Methods}: Including the causal inference, non-parametric methods, and stratified sampling approaches your team employs
+    \item \textbf{Programming Expertise}: Python and R for statistical analysis, with experience in SQL for database querying and data manipulation
+    \item \textbf{Large-Scale Data Analysis}: Processing datasets containing millions of data points from biomedical sensors and administrative systems
+    \item \textbf{Cloud Computing}: Experience with data pipeline development and analysis in distributed computing environments
+  \end{itemize}
+
+  My research background has required developing novel statistical approaches for complex, multi-modal datasets—exactly the kind of innovative thinking needed to increase experimentation velocity at Atlassian's scale.
+
+  \textbf{Agile Mindset and Business Impact Focus}
+
+  What particularly draws me to this role is Atlassian's emphasis on velocity between theory and practice. My current position demands rapid iteration and continuous improvement in analytical approaches, balancing scientific rigor with operational demands. I have consistently delivered analyses that drive immediate business decisions while building longer-term capabilities for more sophisticated experimentation.
+
+  My experience spans both the strategic (designing comprehensive research programs) and the tactical (delivering urgent analyses for time-sensitive decisions). This dual perspective would be valuable in helping Atlassian teams experiment successfully while advancing the broader experimentation infrastructure.
+
+  \textbf{Contribution to Atlassian's Mission}
+
+  I am particularly excited about Atlassian's distributed-first approach and commitment to unleashing team potential. My interdisciplinary background—spanning neuroscience, policy research, and data science—has taught me that the most innovative solutions emerge from diverse perspectives working together. I would bring this collaborative mindset to advancing Atlassian's experimentation practices.
+
+  Your focus on making ``what may be impossible alone, possible together'' resonates deeply with my experience in cross-functional research collaborations. I am eager to contribute to an environment where experimentation excellence drives product innovation and business growth.
+
+  I would welcome the opportunity to discuss how my experimental design expertise, statistical knowledge, and collaborative approach can contribute to Atlassian's experimentation team. Thank you for considering my application.
+
+\end{cvletter}
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter information
+\makeletterclosing
+
+\end{document}
