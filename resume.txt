@@ -1,0 +1,262 @@
+Kambiz ”Kam” Tavabi Ph.D.
+
+RESEARCH SCIENTIST · NEUROSCIENCE EXPERT
+
+Seattle, WA
+
+MOBILE 206·719·3524
+
+Summary
+
+∞
+
+Envelope ktavabi@gmail.com
+
+∞
+
+HOME ktavabi.github.io/
+
+∞
+
+Github-square github.com/ktavabi
+
+∞
+
+Stack-overflow kambiz
+
+∞
+
+Kaggle kambizio
+
+∞
+
+GRADUATION-CAP Kambiz Tavabi PhD
+
+Creative strategist with a growth mindset and 15 years of experience developing and leading end-to-end biomedical data science projects in neuroscience. Excellent reputation for problem-solving and meeting client demands. Detail-oriented and highly organized worker committed to achieving demanding data analysis, research, and development objectives according to tight schedules while producing high-quality results. Seeking a Data Scientist role in a dynamic organization where I can utilize my extensive research experience, data analysis skills, and strong work ethic to contribute to innovative projects and collaborate with a team of professionals
+
+Work Experience
+
+Institute for Learning & Brain Sciences, University of Washington
+
+Research Science Engineer
+
+• Conducted cutting-edge research on early childhood learning and neurodevelopmental disorders in pediatric populations.
+
+Seattle, WA
+
+2011 - 2023
+
+• Designed and executed experiments using digital signal processing and statistical analysis techniques, e.g., A/B testing, Analysis of Variance, and Regression to synthesize insights from medical imaging datasets.
+
+• Utilized tools such as Github, PYTHON (JUPYTER), R (ggplot2, lme4, Tidyverse), SQL, MATLAB, Linux, MacOS, Windows, Microsoft Office (Excel, PowerPoint, Word), Google Collaboration Tools, Adobe (Illustrator, Photoshop) for exploratory data analysis, data mining, and data visualization.
+
+• Developed expertise in Machine Learning techniques such as LOGIT and Random Forest for advanced data analytics.
+
+• Leveraged interpersonal and leadership skills to advise department leadership for data reporting activities, manage grants, collaborate with other researchers, facilitate strategic analytics planning for other researchers, and mentor graduate students.
+
+• Contributed to improving electrophysiological sensor data operations by helping to develop PYTHON software for promoting data sharing, provenance management, and automating data analysis pipelines.
+
+Lurie Family Foundations MEG Imaging Center, The Children’s Hospital of Philadelphia
+
+Post Doctoral Researcher
+
+Philadelphia, PA
+
+2008 - 2011
+
+• Collaborated with interdisciplinary researchers to design and implement experiments and conduct longitudinal data analysis and case-control designs to investigate brain development in pediatric populations.
+
+• Utilized high-level programming languages such as MATLAB for statistical analysis and digital signal processing.
+
+• Leveraged knowledge of statistical inference techniques (Analysis of Variance, GLM) to overhaul data analysis and facilitate the publication of results.
+
+• Presented research findings at national and international conferences, authored scientific publications in peer-reviewed journals, and contributed to grant applications.
+
+• Planned and instructed a seminar in applied statistics to help first-year medical school residents to execute research activities.
+
+• Earned a college Loan Repayment award for outstanding translational research from the National Institutes of Health.
+
+Education
+
+University of Münster
+
+Doctor of Philosophy
+
+Münster, Germany
+
+2004 - 2007
+
+• Completed a doctoral dissertation exploring phonological processing during speech perception using electrophysiology sensor data at theInstitut für Biomagnetismus und Biosignalanalyse.
+
+• Courses: Digital Signal Processing, Electrophysiology, Neuroscience, Psycholinguistics, Neuropsychology
+
+University of Oregon
+
+Master of Science
+
+• Earned a terminal M.Sc. degree in psychology with a specialization in cognition in the Brain Development Lab.
+
+Eugene, OR
+
+2001 - 2003
+
+• Courses: Magnetic Resonance Imaging, Philosophy of Mind, Statistics for Data Analysis, Neurobiology of Attention & Arousal, Cognitive Psychology, Social & Personality Psychology, Developmental Psychology, Neuroplasticity, Principles of Psychology, Modern Investigation Methods in Human Neuroscience, Evolution of Mind
+
+APRIL 7, 2023
+
+1
+
+University of California Los Angeles
+
+Bachelor of Science
+
+• Completed a general B.Sc. degree with a specialization in vertebrate physiology.
+
+Los Angeles, CA
+
+1995 - 2000
+
+• Courses: Neurobiology of Learning & Memory, Biological Basis of Psychiatric Disorders, Genetics, Vertebrate Physiology, Chemistry, Organic Chemistry, Biology, Physics, Calculus, Linear Algebra, Logic
+
+Achievements
+
+2023
+
+2023
+
+2023
+
+2022
+
+2012
+
+2011
+
+Certificate of Completion, Data Visualization with Python
+
+Certificate of Completion, Data Science Orientation
+
+Certificate of Completion, Certified SQL Developer
+
+Certificate of Completion, Statistical Learning
+
+Certificate of Completion, Elekta Neuromag® MEG Advanced Program Digital SLR Photography, Nikon School
+
+USA USA USA USA Helsinki, Finland USA
+
+Skills
+
+Technical
+
+Soft
+
+Experimentation, Digital Signal Processing, Case-control Design, Longitudinal Data, Exploratory Data Analysis, Data Visualization, Data Mining, Statistical Analysis (A/B testing, Analysis of Variance, General Linear Model, Regression), Machine Learning (LOGIT, Random Forest), Github, PYTHON (JUPYTER), R (ggplot2, lme4, Tidyverse), HUGO HTML/CSS, SQL, MATLAB, Linux, MacOS, Windows, Shell A (Bash/Zsh), LT E X(Overleaf/R Markdown), Git, Microsoft Office, (Excel, PowerPoint, Word), Google Cloud Collaboration Tools (Sheets, Forms, Docs, Colab), Adobe (Illustrator, Photoshop), Affinity (Designer, Photo) Presentation, Time Management, Teamwork, Problem Solving, Documentation, Scientific Writing, Grant Management, Research, Mentoring
+
+Languages
+
+American English Farsi Spanish
+
+Native Bilingual (ILR Level 5) Elementary proficiency (ILR Level 2+) Elementary proficiency (ILR Level 1)
+
+Projects
+
+Automaticity in the reading circuitry
+
+Seattle, WA
+
+University of Washington 2015 - 2019
+
+• Measured brain activity in school-aged children (N = 42, 7–12 years of age) with magnetoencephalography to examine word-selective brain responses during reading.
+
+• Developed data acquisition procedures and PYTHON routines for digital signal processing, dimensionality reduction (PCA), data transformations, and 3D statistical modeling of dense-array timeseries data.
+
+Effectively combining temporal projection noise suppression methods in magnetoencephalography
+
+Seattle, WA
+
+University of Washington 2018 - 2020 • Mentored a graduate student with data visualization, analysis, and manuscript preparation for a study describing the efficacy of various noise subspace projection methods for preprocessing dense-array electrophysiology data before 3D statistical modeling.
+
+Mne-Bids: Organizing Electrophysiological Data into the Bids Format and Facilitating Their Analysis
+
+Seattle, WA
+
+University of Washington 2018 - 2019 • Collaborated with an international team of software engineers to create open-source Python applications to speed up analyses, enhance code reliability, and facilitate data and code sharing amongst co-workers and collaborators.
+
+APRIL 7, 2023
+
+2
+
+Using magnetoencephalography to examine word recognition, lateralization, and future language skills in 14-month-old infants
+
+University of Washington
+
+Seattle, WA
+
+2014 - 2019
+
+• Investigated early childhood language learning by combining neuropsychological measurements and experimental word discrimination paradigm in a cohort of typically developing infants (N = 27, 39–42 weeks old).
+
+• Developed data acquisition procedures and built PYTHON routines for digital signal processing, data mining, feature engineering, and regression model to assess the relationship between neuropsychological and prospective behavioral performance measurements of vocabulary growth.
+
+Auditory Magnetic Mismatch Field Latency: A Biomarker for Language Impairment in Autism
+
+The Children’s Hospital of Philadelphia
+
+Philadelphia, PA
+
+2010 - 2011
+
+• Leveraged nonparametric linear mixed modeling to overhaul statistical analysis of a large dataset containing neuropsychological measurements of speech discrimination in children diagnosed with autism spectrum disorders (N = 51, 6–15 years of age) and used receiver operator characteristic analysis to characterize diagnostic sensitivity and specificity for language impairment based on neuropsychological measurements.
+
+Publications
+
+JOURNAL ARTICLES
+
+Using Magnetoencephalography to Examine Word Recognition, Lateralization, and Future Language Skills in 14-Month-Old Infants Alexis N. Bosseler, Maggie Clarke, Kambiz Tavabi, Eric D. Larson, Daniel S. Hippe, Samu Taulu, Patricia K. Kuhl
+
+Developmental Cognitive Neuroscience 47 (Feb. 2021) p. 100901. 2021
+
+Automaticity in the Reading Circuitry Sung Jun Joo, Kambiz Tavabi, Sendy Caffarra, Jason D. Yeatman
+
+Brain and language 214 (Mar. 2021) p. 104906. 2021
+
+Effectively Combining Temporal Projection Noise Suppression Methods in Magnetoencephalography Maggie Clarke, Eric Larson, Kambiz Tavabi, Samu Taulu
+
+Journal of Neuroscience Methods 341 (July 2020) p. 108700. 2020
+
+MNE-BIDS: Organizing Electrophysiological Data into the BIDS Format and Facilitating Their Analysis
+
+Stefan Appelhoff, Matthew Sanderson, Teon Brooks, Marijn van Vliet, Romain Quentin, Chris Holdgraf, Maximilien Chaumon, Ezequiel Mikulan, Kambiz Tavabi, Richard Höchenberger, Dominik Welke, Clemens Brunner, Alexander Rockhill, Eric Larson, Alexandre Gramfort, Mainak Jas
+
+Journal of Open Source Software 4.44 (Dec. 2019) p. 1896. 2019
+
+Auditory Magnetic Mismatch Field Latency: A Biomarker for Language Impairment in Autism
+
+Timothy P.L. Roberts, Katelyn M. Cannon, Kambiz Tavabi, Lisa Blaskey, Sarah Y. Khan, Justin F. Monroe, Saba Qasmieh, Susan E. Levy, J. Christopher Edgar
+
+Biological psychiatry 70.3 (Aug. 2011) pp. 263–269. 2011
+
+Spectral–Temporal Analysis of Cortical Oscillations during Lexical Processing Kambiz Tavabi, David Embick, Timothy P.L. Roberts
+
+NeuroReport 22.10 (July 2011) pp. 474–478. 2011
+
+Word Repetition Priming-Induced Oscillations in Auditory Cortex: A Magnetoencephalography Study Kambiz Tavabi, David Embick, Timothy P.L. Roberts
+
+NeuroReport 22.17 (Dec. 2011) pp. 887–891. 2011
+
+Effects of Place of Articulation Changes on Auditory Neural Activity: A Magnetoencephalography Study Kambiz Tavabi, Ludger Elling, Christian Dobel, Christo Pantev, Pienie Zwitserlood
+
+PLoS ONE 4.2 (Feb. 2009) e4452. 2009
+
+Auditory Evoked Fields Differentially Encode Speech Features: An MEG Investigation of the P50m and N100m Time Courses during Syllable Processing: Evoked Fields Encode Speech Features Kambiz Tavabi, Jonas Obleser, Christian Dobel, Christo Pantev
+
+European Journal of Neuroscience 25.10 (June 2007) pp. 3155–3162. 2007
+
+The Growth of the Feline Brain from Fetal into Adult Life: II. A Morphometric Study of Subcortical Nuclei Jaime R Villablanca, Troy D Schmanke, Harmony A Crutcher, Angie C Sung, Kambiz Tavabi
+
+Developmental Brain Research 122.1 (July 2000) pp. 21–33. 2000
+
+APRIL 7, 2023
+
+3
+
