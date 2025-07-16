@@ -1,0 +1,138 @@
+# Markdown linting configuration
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Line length (disabled)
+MD013: false
+
+# List marker spacing (enabled with 1 space)
+MD030:
+  ul_single: 1
+  ol_single: 1
+  ul_multi: 1
+  ol_multi: 1
+
+# HTML tags (disabled)
+MD033: false
+
+# First line in file should be a top level heading (disabled)
+MD041: false
+
+# Multiple headings with the same content (disabled)
+MD024: false
+
+# Trailing spaces (disabled)
+MD009: false
+
+# No trailing spaces (disabled)
+MD026: false
+
+# Ordered list item prefix (disabled)
+MD029: false
+
+# Multiple consecutive blank lines (disabled)
+MD012: false
+
+# Multiple top level headings in the same document (disabled)
+MD025: false
+
+# Headings should be surrounded by blank lines (disabled)
+MD022: false
+
+# Headings must start at the beginning of the line (disabled)
+MD023: false
+
+# No emphasis used for headings (disabled)
+MD036: false
+
+# First heading should be a top level heading (disabled)
+MD002: false
+
+# Unordered list indentation (disabled)
+MD007: false
+
+# No trailing spaces (disabled)
+MD010: false
+
+# Reversed link syntax (disabled)
+MD011: false
+
+# Dollar signs used before commands without showing output (disabled)
+MD014: false
+
+# No space after hash on atx style heading (disabled)
+MD018: false
+
+# Multiple spaces after hash on atx style heading (disabled)
+MD019: false
+
+# No space after hash on atx style heading (disabled)
+MD020: false
+
+# Multiple spaces after hash on atx style heading (disabled)
+MD021: false
+
+# Ordered list item marker (disabled)
+MD027: false
+
+# Unordered list item marker (disabled)
+MD028: false
+
+# Unordered list item marker (disabled)
+MD031: false
+
+# Unordered list item marker (disabled)
+MD032: false
+
+# No bare URLs (disabled)
+MD034: false
+
+# No inline HTML (disabled)
+MD035: false
+
+# No emphasis used for headings (disabled)
+MD037: false
+
+# No emphasis used for headings (disabled)
+MD038: false
+
+# No emphasis used for headings (disabled)
+MD039: false
+
+# Fenced code blocks should have a language specified (disabled)
+MD040: false
+
+# No emphasis used for headings (disabled)
+MD042: false
+
+# No emphasis used for headings (disabled)
+MD043: false
+
+# No emphasis used for headings (disabled)
+MD044: false
+
+# No emphasis used for headings (disabled)
+MD045: false
+
+# No emphasis used for headings (disabled)
+MD046: false
+
+# No emphasis used for headings (disabled)
+MD047: false
+
+# No emphasis used for headings (disabled)
+MD048: false
+
+# No emphasis used for headings (disabled)
+MD049: false
+
+# No emphasis used for headings (disabled)
+MD050: false
+
+# No emphasis used for headings (disabled)
+MD051: false
+
+# No emphasis used for headings (disabled)
+MD052: false
+
+# No emphasis used for headings (disabled)
+MD053: false
