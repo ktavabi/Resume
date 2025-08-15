@@ -680,11 +680,11 @@
 % Define an environment for cvskill
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-2.0mm}
+  \vspace{-1.0mm}
   \begin{center}
     \setlength\tabcolsep{1ex}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.65}}}
 }{%
     \end{tabular*}
   \end{center}
@@ -704,8 +704,7 @@
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{%
-  %\vspace{-4.0mm}
-  \vspace{1mm}
+  \vspace{-4.0mm}
   \begin{justify}
   \begin{itemize}[leftmargin=2ex, itemsep=0.5mm, topsep=0.5mm]
     \setlength{\parskip}{0pt}
@@ -713,8 +712,7 @@
 }{%
   \end{itemize}
   \end{justify}
-  \vspace{1mm}
-%  \vspace{-4.0mm}
+  \vspace{2.0mm}
 }
 
 
