@@ -3,8 +3,6 @@
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[10.5pt, letterpaper]{russell}
-% \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
-% \addbibresource{} % Empty bib resource to prevent warning
 
 % Configure page margins with geometry
 \geometry{left=1.2cm, top=1.2cm, right=1.2cm, bottom=1.2cm, footskip=.5cm}
@@ -16,15 +14,6 @@
 % russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
 %                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
 \colorlet{russell}{russell-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{russell}{HTML}{CA63A8}
-
-% Colors for text
-% Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
 
 % Set false if you don't want to highlight section with russell color
 \setbool{acvSectionColorHighlight}{true}
@@ -32,36 +21,19 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\infty\quad}
 
-
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{./examples/profile}
 \name{Kambiz}{Tavabi Ph.D.}
 \position{Principal Data Scientist{\enskip\cdotp\enskip}Neuroscience Expert}
 \address{Seattle, WA.}
 
 \mobile{206\cdotp719\cdotp3524}
 \email{ktavabi@gmail.com}
-% \dateofbirth{January 1st, 1970}
 \homepage{ktavabi.github.io/}
-% \github{github.com/ktavabi}
 \linkedin{kambiz-tavabi-93255326b}
-% \gitlab{gitlab-id}
-%\stackoverflow{1634460}{kambiz}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \kaggle{kambizio}
-% \googlescholar{VO6NMiEAAAAJ\&hl}{Kambiz Tavabi}
-%% \firstname and \lastname will be used
 \googlescholar{VO6NMiEAAAAJ\&hl}{Kambiz Tavabi}
-% \extrainfo{extra information}
-
-% \quote{``Simplicity is deceptively complicated."}
 
 %-------------------------------------------------------------------------------
 %	LETTER INFORMATION
@@ -69,19 +41,18 @@
 %-------------------------------------------------------------------------------
 % The company being applied to
 \recipient
-  {Fred Hutchinson Cancer Center}%
-  {1100 Fairview Ave N\\Seattle, WA 98109}
+  {Allen Institute}%
+  {615 Westlake Ave N\\Seattle, WA 98109}
 % The date on the letter, default is the date of compilation
 \letterdate{\today}
 % The title of the letter
-\lettertitle{Data Manager - Translational Research Program in Colorectal Cancer Disparities}
+\lettertitle{AI Research Scientist III - Office of the CTO}
 % How the letter is opened
 \letteropening{\newline Dear Hiring Manager,}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
-%\letterenclosure[Attached]{Résumé}
-
+\letterenclosure[Attached]{Résumé}
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -104,29 +75,35 @@
 %	LETTER CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvletter}
-  I am writing to express my strong interest in the Data Manager position (Job ID 29498) supporting the Translational Research Program in Colorectal Cancer Disparities (TRPCD) at Fred Hutchinson Cancer Center. With over 15 years of experience managing complex research datasets and coordinating multi-institutional collaborations, I am excited about the opportunity to contribute to Fred Hutch's mission of advancing cancer research and treatment.
+I am eager to bring my extensive expertise and innovative mindset to the AI Research Scientist III position at the Allen Institute's Office of the Chief Technology Officer. With a Ph.D. in Neuroscience and over 15 years of experience in biomedical imaging and machine learning for complex biological systems, I am uniquely positioned to drive groundbreaking advancements in AI research that can transform the understanding of biology.
 
-  My background aligns perfectly with the technical and organizational requirements of this role. As Principal Data Scientist at the Washington State Department of Corrections, I currently manage longitudinal datasets with 27,000+ individual cases annually, implementing standardized analytical frameworks and quality control measures to ensure data integrity. I oversee development of scalable data science infrastructure using Python, R, and SQL databases, creating automated workflows for reproducible research that directly support executive decision-making.
+\textbf{Technical Alignment with Role Requirements}
 
-  During my 12-year tenure as Research Science Engineer at the University of Washington's Institute for Learning \& Brain Sciences, I managed complex multimodal datasets from 500+ participants across multiple research projects, collaborating extensively with biostatisticians, clinicians, and laboratory personnel. I collaborated with the development of MNE-BIDS, an internationally-adopted Python package for organizing and analyzing biomedical data, which demonstrates my expertise in creating standardized workflows for data sharing and collaboration—a skill directly relevant to the TRPCD's multi-institutional projects.
+My background directly meets the core technical needs for this role. As Principal Data Scientist and Business Intelligence Manager at Washington State Department of Corrections, I currently lead a team of five analysts and have built production-ready ML pipelines that process millions of cases using TF-IDF vectorization and logistic classifiers—showing my ability to design and deploy large-scale ML systems. My expertise in Python ML frameworks (NumPy, Pandas, Scikit-learn), statistical analysis, and scalable data infrastructure matches your need for someone capable of developing cutting-edge AI/ML models for biological applications.
 
-  My experience in clinical data coordination is particularly relevant to this position. At The Children's Hospital of Philadelphia, I managed large case-control longitudinal datasets for pediatric research cohorts, developing protocols for data collection, annotation, and integration. I have extensive experience implementing quality control protocols, data validation procedures, and maintaining comprehensive data dictionaries and codebooks for reproducible research.
+\textbf{Biological Data Expertise}
 
-  Key qualifications that make me an excellent fit for this role include:
+My over 12 years at the University of Washington's Institute for Learning \& Brain Sciences have significantly prepared me to contribute to the Allen Institute's mission. During this period, I developed advanced analytical methods for processing complex, high-dimensional neurophysiological datasets from more than 500 participants across various research projects. By utilizing advanced machine learning techniques such as Random Forests, logistic regression, along with signal processing methods such as PCA, and time-frequency analysis, I have consistently gained valuable biological insights from neural data. My extensive experience and technical expertise uniquely qualify me to contribute meaningfully to the Allen Institute's innovative initiatives. This experience with multimodal biological data—including electrophysiological, behavioral, and clinical measurements—equips me well to work across your Brain Science, Cell Science, and other research divisions.
 
-  \textbf{Data Management \& Analysis:} Proficiency in Python and R programming, with extensive experience processing large-scale datasets and implementing automated data cleaning and analysis pipelines. I have managed complex longitudinal datasets and developed quality control measures to ensure data integrity.
+\textbf{Community Impact and Open Science Leadership}
 
-  \textbf{Multi-institutional Collaboration:} Proven track record coordinating across multiple institutions, cores, and external collaborators. I have managed research grants totaling \$2M+ and facilitated data sharing among diverse research teams.
+I have contributed to internationally adopted open-source tools that exemplify the community standards your role aims to establish. As a contributor to MNE-BIDS and the MNE-Python ecosystem, I helped develop standardized workflows for biological data analysis that are used by research teams worldwide. This experience developing scalable, community-driven analytical frameworks directly aligns with your goal to ``establish community standards for scalability in developing, disseminating, and evaluating AI/ML/computational methods''.
 
-  \textbf{Documentation \& Compliance:} Experience maintaining comprehensive documentation using GitHub version control and developing standard operating procedures (SOPs) for data management. I have ensured compliance with institutional standards and implemented quality control measures.
+\textbf{Cross-Functional Collaboration Experience}
 
-  \textbf{Technical Operations:} Expertise in database systems, cloud computing, and scientific computing software including Python, SQL, MATLAB, and statistical software (R, SPSS, jamovi). I have experience with spreadsheets and maintaining data backup and security protocols.
+My role as Business Intelligence Manager highlights my cross-functional collaboration skills, which are essential for this position. I frequently consult with agency executives and business units on data strategy, translating complex analytics into actionable insights—experience that directly applies when working with diverse scientific teams at the Allen Institute. My track record managing over \$2 million in research grants and leading interdisciplinary teams of biostatisticians, clinicians, and engineers demonstrates my ability to oversee large-scale projects from inception to completion.
 
-  \textbf{Communication \& Training:} Strong ability to translate complex data-related issues for non-technical stakeholders and train team members on data management procedures. I have presented data updates to investigators and prepared progress reports for funding agencies.
+\textbf{Research Translation and Impact}
 
-  I am particularly drawn to Fred Hutch's commitment to collaboration, innovation, and excellence in biomedical research. The opportunity to support the TRPCD's work on colorectal cancer disparities aligns with my passion for using data science to address critical health challenges. My experience managing large-scale, multi-institutional datasets and coordinating with diverse stakeholders would enable me to contribute immediately to the program's research objectives.
+My NIH Loan Repayment Award for translational biomedical research demonstrates my ability to connect basic research with real-world applications—a crucial requirement for advancing AI/ML methods that will have widespread transformative effects on science. My work developing statistical classification systems for clinical biomarkers shows experience applying computational methods to solve complex biological questions with real-world impact.
 
-  I would welcome the opportunity to discuss how my background in data management, multi-institutional collaboration, and research coordination can support the TRPCD's mission. Thank you for considering my application.
+\textbf{Commitment to Allen Institute Values}
+
+The Allen Institute's dedication to open science and breaking down barriers in STEM aligns with my professional values. Throughout my career, I have focused on sharing knowledge through publications, open-source contributions, and mentoring. My international research background, bilingual abilities, and firsthand experience as an immigrant scientist exemplify the diverse perspectives and innovative mindset that the Institute highly values and seeks to foster.
+
+I am enthusiastic about the chance to contribute to the Allen Institute's goal of solving biological complexities through AI/ML innovation. My mix of neuroscience expertise, machine learning skills, and demonstrated leadership in managing complex data science projects enables me to make immediate contributions to your team while helping to develop the AI/ML infrastructure essential for groundbreaking biological research.
+
+Thank you for your consideration. I look forward to discussing how my experience can help the Allen Institute's innovative work in AI for biology.
 
 \end{cvletter}
 
