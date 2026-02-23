@@ -1,0 +1,42 @@
+---
+description: Tailor resume .tex files to job descriptions, ATS criteria, and stand-out quality while staying faithful to vitae.md
+globs: "**/*.tex"
+alwaysApply: false
+---
+
+# Resume Tailoring for *.tex
+
+When editing or generating resume/CV content in `.tex` files:
+
+## Source of truth
+
+- **All factual content** (education, degrees, dates, employers, titles, achievements, skills, publications) **must be derivable from `vitae.md`**. Do not add institutions, roles, dates, or accomplishments that are not present there.
+- You may reword, reorder, emphasize, or omit for space; you may not invent or extrapolate new facts.
+- If the job description asks for something not in `vitae.md`, respond with content that is the *closest match* from `vitae.md` (e.g., related project, skill, or responsibility), or omit rather than fabricate.
+
+## Match job description requirements
+
+- Extract required/preferred qualifications and keywords from the job description.
+- Mirror that language where it honestly applies (e.g., "machine learning," "NLP," "Python," "statistical modeling").
+- Prioritize experience and skills in `vitae.md` that directly address must-haves; move or shorten less relevant items.
+- Keep section order and emphasis aligned with what the role values (e.g., lead with industry experience for industry roles, with research for academic roles).
+
+## ATS (applicant tracking system) criteria
+
+- Use clear, standard section headings (e.g., Experience, Education, Skills) and avoid graphics or complex layouts for critical text.
+- Include exact keywords and phrases from the job posting where they truthfully apply (skills, tools, methods).
+- Spell out acronyms at least once if they appear in the job description (e.g., "Natural Language Processing (NLP)").
+- Preserve consistent formatting (e.g., dates, job titles) so parsers can reliably extract fields.
+- Avoid tables or multi-column blocks for key content when a simple list is sufficient.
+
+## Stand-out professional resume
+
+- Lead with a short, targeted summary that ties your `vitae.md` background to this role’s needs.
+- Use strong, concrete verbs and outcomes (e.g., "Designed," "Deployed," "Achieved X%") and, where possible, metrics from `vitae.md`.
+- Highlight 2–4 most relevant roles or projects; condense or drop the rest to stay within typical length (e.g., 1–2 pages).
+- Ensure skills and technical terms from the job description appear in both a Skills section and in relevant bullet points.
+- Keep tone professional and consistent; avoid casual or inflated claims.
+
+## Verification
+
+Before finalizing changes, confirm: (1) every factual claim can be traced to `vitae.md`, (2) key job requirements are addressed with real experience/skills, and (3) wording is ATS-friendly and professional.
