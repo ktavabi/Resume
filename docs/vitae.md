@@ -23,12 +23,6 @@
 
 ---
 
-## PROFESSIONAL SUMMARY
-
-Research Scientist with Ph.D. in Neuroscience and 15+ years of experience developing experimental paradigms and machine learning models for speech and language processing. Proven expertise in digital signal processing, statistical modeling, and neural network architectures applied to auditory and linguistic data analysis. Strong foundation in Python, deep learning frameworks, and scalable ML pipelines, with exceptional ability to translate complex research into practical applications. Published researcher in speech perception, language processing, and neural mechanisms underlying human communication. Creative strategist with a growth mindset and excellent reputation for problem-solving and meeting client demands. Detail-oriented and highly organized worker committed to achieving demanding data analysis, research and development objectives according to tight schedules while producing high-quality results.
-
----
-
 ## EDUCATION
 
 ### Doctor of Philosophy (Ph.D.) in Cognitive Psychology/Neuroscience
@@ -88,7 +82,7 @@ _Department of Physiological Sciences_
 
 ## PROFESSIONAL EXPERIENCE
 
-### Principal Data Scientist
+### Business Intelligence & Operations Surveillance (BIOS) Manager
 
 **Washington State Department of Corrections** | Tumwater, WA | May 2023 - Present
 
