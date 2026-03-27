@@ -9,6 +9,36 @@
 %-------------------------------------------------------------------------------
 \begin{cventries}
   %---------------------------------------------------------
+  \cventry
+  {Washington State Department of Corrections (WADOC)} % Organisation
+  {Out-of-County Violator Operations Analytics} % Project
+  {Olympia, WA} % Location
+  {2025 - Present} % Date(s) chktex 8
+  {
+    \begin{cvitems} % Description(s) of project
+      \item {Engineered a Python analytics pipeline that transformed 123,291 records across 10 relational tables and 6 years (2019--2025) into operational intelligence, cutting investigation time by packaging findings into a reproducible Quarto report for policy stakeholders}
+      \item {Quantified statewide transport load by mapping 20,000+ cross-county transfers and isolating 16.0\% arrest-to-booking and 16.4\% admission-to-release mismatch rates, enabling data-driven capacity planning for 39 Washington counties}
+      \item {Developed a 0--100 county cooperation scoring model using three weighted metrics (40\% completeness, 30\% acceptance policy, 30\% non-DOC arrest rate) to rank inter-agency readiness across all 39 counties}
+      \item {Resolved a perceived 45\% agency-data quality gap to a true 0.8\% issue by applying chi-square testing (p $<$ 0.0001) and structured-missing data analysis, preventing misallocation of remediation resources}
+    \end{cvitems}
+  }
+
+%---------------------------------------------------------
+\cventry
+  {Washington State Department of Corrections (WADOC)} % Organisation
+  {Incident Narrative Multi-Label NLP Classifier} % Project
+  {Olympia, WA} % Location
+  {2025 - Present} % Date(s) chktex 8
+  {
+    \begin{cvitems} % Description(s) of project
+      \item {Architected and deployed a production-ready multi-label NLP classifier that automated incident coding across 73 labels, achieving 75.6\% micro-F1, 88.3\% precision, and 60.6\% exact-match accuracy on ~28K held-out incidents}
+      \item {Scaled model training to 110,928 incident narratives from a 24-table source system by building an end-to-end pandas and scikit-learn pipeline with TF-IDF vectorization (15K features, unigrams + bigrams)}
+      \item {Outperformed a random baseline by ~30x by implementing one-vs-rest logistic regression and structured feature engineering over text and participant-level attributes, increasing trust in automated triage decisions}
+      \item {Drove responsible rollout by designing a two-phase human-in-the-loop validation process with DOC stakeholders, improving deployment readiness while preserving auditability for high-stakes public-sector use}
+    \end{cvitems}
+  }
+
+  %---------------------------------------------------------
     \cventry
       {University of Washington} % Organisation
       {Large-Scale ML Modeling for Neuroscience} % Project
