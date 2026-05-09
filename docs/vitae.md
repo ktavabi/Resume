@@ -2,6 +2,8 @@
 
 ## Master Curriculum Vitae
 
+**Canonical source:** This file is the single source of truth for CV and resume content in this repository. Targeted LaTeX resumes and cover letters should derive facts only from material here.
+
 ---
 
 ## PERSONAL INFORMATION
@@ -84,15 +86,17 @@ _Department of Physiological Sciences_
 
 ### Business Intelligence & Operations Surveillance (BIOS) Manager
 
-**Washington State Department of Corrections** | Tumwater, WA | May 2023 - Present
+**Washington State Department of Corrections, Research & Data Analytics** | Tumwater, WA | May 2023 - Present
+
+_Product owner for the BIOS program: five Agile epics (63+ features, Jan 2023–present) spanning operational Power BI dashboards, recurring reports, applied research, healthcare claims linkage (Washington APCD/WAPC), ML prototypes, and RDA-wide BI process improvement. Cross-functional team includes analysts Connor Saxe, Matthew Landon, Amy Lodge, Porranee Thanapakpawin, and Zaira Lujan._
 
 **Key Responsibilities & Achievements:**
 
--   **Language Processing & NLP:** Developed and deployed production ML pipeline using TF-IDF vectorization and logistic classifiers to analyze narrative text data, achieving automated classification of behavioral incidents with 85%+ accuracy across 27,000+ individual cases annually
--   **Scalable ML Systems:** Built and scaled data science infrastructure using Python, SQL databases, and cloud computing to process longitudinal datasets, implementing standardized analytical frameworks for real-time decision support systems
--   **Statistical Modeling & Causal Inference:** Lead experimental design and causal analysis for large-scale policy interventions, applying advanced statistical methods including A/B testing, regression modeling, and time-series analysis to measure program effectiveness
--   **Cross-functional AI Leadership:** Manage interdisciplinary team of analysts, translating complex ML findings into actionable insights for executive decision-making, demonstrating proven ability to bridge research and practical applications
--   **Research-to-Production Pipeline:** Drive strategic research initiatives from conceptualization through deployment, ensuring rigorous experimental standards while maintaining focus on scalable, real-world impact
+-   **Language Processing & NLP:** Designed and deployed a production multi-label NLP pipeline (pandas, scikit-learn: TF-IDF + one-vs-rest logistic regression) for Washington DOC incident narratives—73 incident-type labels, ~111K training records, **75.6% micro-F1**, **88.3% precision**, **60.6% exact-match** accuracy on ~28K held-out incidents (~30× vs. random baseline), in partnership with [Recidiviz](https://recidiviz.org) and the Council of State Governments (IMRS POC; see **Washington DOC applied analytics** below).
+-   **Operational & policy analytics:** End-to-end Python analytics on **123,291** administrative records (2019–2025) for out-of-county violator processing: data profiling, chi-square / Cramér's V, county cooperation scoring, GeoPandas + NetworkX flow maps, reproducible **Quarto** HTML delivery to policy stakeholders.
+-   **Scalable BI & ETL:** Product-owned delivery of **30+** Power BI dashboards and recurring reports (daily through annual cadences); SQL (T-SQL) ETL, SAS-to-SQL migration for reception-center automation, Power Automate and gateway-based refresh; stakeholder work with Prisons, Health Services, Reentry, PEAR misconduct workgroup, and executive reporting.
+-   **Statistical modeling & causal inference:** Regression, ANOVA, correlation and effect sizes in **R**; A/B testing (e.g., TMVSA recidivism); WAPC/APCD claims analysis for DOC release cohorts; reproducible **R Markdown** notebooks and public-facing recidivism methodology white paper.
+-   **Cross-functional leadership:** Translates ML and statistical findings for executives and facility leadership; Azure DevOps work tracking, Git PR peer review, production table QA, Positron/VS Code standards for R/SQL/Markdown; contributed to RDA recognition program design and BI governance (landing page, templates).
 
 ### Research Science Engineer
 
@@ -315,15 +319,24 @@ _Department of Radiology_
 
 ## CERTIFICATIONS & PROFESSIONAL DEVELOPMENT
 
-### Data Science & Analytics
+_Aligned with `cv/achievements.tex` (honors/awards section). NIH Loan Repayment Program appears under **Grants, honors & awards**._
 
--   **2023:** Certificate of Completion, Bayesian Statistics: From Concept to Data Analysis (Coursera)
--   **2023:** Certificate of Completion, Data Visualization with Python (Coursera)
--   **2023:** Certificate of Completion, Data Science Orientation (Coursera)
--   **2023:** Certified SQL Developer (W3Schools)
--   **2022:** Certificate of Completion, Statistical Learning (edX)
+### In progress / recent (machine learning & AI)
 
-### Technical Training
+-   **2026 (in progress):** [DeepLearning.AI — Retrieval Augmented Generation (RAG)](https://www.coursera.org/learn/retrieval-augmented-generation) (Coursera)
+-   **2026:** [IBM Deep Learning Professional Certificate](https://www.coursera.org/account/accomplishments/verify/OUJCQZSHU8NV) (Coursera)
+-   **2026:** Machine Learning with Python — [IBM AI Engineering Professional Certificate](https://coursera.org/share/ac41f26ddb1d0c95e7f915a9d170fa47) (Coursera)
+
+### Data science & analytics (certificates)
+
+-   **2024:** [Supervised Machine Learning: Regression and Classification](https://coursera.org/verify/UWLZ48LYBDFW) (Coursera)
+-   **2023:** [Bayesian Statistics: From Concept to Data Analysis](https://www.coursera.org/account/accomplishments/certificate/DR5CTTN4HL35) (Coursera)
+-   **2023:** [Data Visualization with Python](https://www.coursera.org/account/accomplishments/certificate/G4G3368QTG2N) (Coursera)
+-   **2023:** [Data Science Orientation](https://www.coursera.org/account/accomplishments/certificate/HM6YZKUP8J8X) (Coursera)
+-   **2023:** [Certified SQL Developer](https://verify.w3schools.com/1NDRG69DTP) (W3Schools)
+-   **2022:** [Statistical Learning](https://courses.edx.org/certificates/6def26e9529b4ded83ebfe2e86e7e0da) (edX)
+
+### Technical training (neuroimaging)
 
 -   **2012:** Certificate of Completion, Elekta Neuromag® MEG Advanced Program (Helsinki, Finland)
 
@@ -357,7 +370,8 @@ _Department of Radiology_
 -   **Secondary Languages:** MATLAB, SQL, Shell (Bash/Zsh)
 -   **Version Control:** Git/GitHub
 -   **Platforms:** Linux, MacOS, Windows
--   **Documentation:** LaTeX (Overleaf/R Markdown), HUGO HTML/CSS
+-   **Documentation & reports:** LaTeX (Overleaf), R Markdown, Quarto, HUGO HTML/CSS
+-   **BI & automation:** Power BI (semantic models, DAX), Power Automate, scheduled SQL / gateway refresh
 -   **Statistical Software:** SPSS, BESA
 -   **Neuroimaging Software:** MNE-Python, Fieldtrip, CTF software suite, VSM-ELEKTA software suite, Brain Voyager
 
@@ -395,6 +409,36 @@ _Department of Radiology_
 -   **Institute for Biomagnetism and Biosignalanalysis** (2004-2007)
 -   **Amnesty International** (1997-1998)
 -   **Amigos Del Barrio** (1996-1998)
+
+---
+
+## WASHINGTON DOC APPLIED ANALYTICS (REFERENCE DETAIL)
+
+_Portfolio scope derives from Washington DOC Research & Data Analytics / BIOS program work (Azure DevOps epics and features). Use for resume bullets and interviews; keep public-facing language appropriate for the agency._
+
+### BIOS program — epic portfolio (summary)
+
+| Epic focus | Approx. features | Value areas (examples) |
+|------------|------------------:|-------------------------|
+| Business & operations surveillance reports | 28 | Correctional operations, enterprise results, business operations, research, community interactions |
+| Data analysis & research | 12 | Research, correctional operations, enterprise results, community interactions (e.g., WAPC/APCD, IMRS ML POC, recidivism white paper, RMD notebooks) |
+| Agency initiatives | 5 | Enterprise results, correctional operations (e.g., reentry, PEAR equity reporting, visitation study) |
+| Cross-unit collaboration | 8 | Business operations, correctional operations, research, process improvement (e.g., aging population data model, health services data requests, RDA stand-ups) |
+| Process improvements | 10 | Process improvement, business operations (report automation, Agile user guides, Git/documentation standards, PBI landing page, production table QA, Positron environment) |
+
+**Representative technical stack (Washington DOC):** Power BI (semantic models, DAX, governance), SQL/T-SQL and scheduled jobs, R (ggplot2, regression, ANOVA, correlation), Python (NLP POC with scikit-learn), R Markdown / Quarto, Azure DevOps, Git, Power Automate.
+
+### IMRS — multi-label NLP incident classification (Recidiviz partnership)
+
+-   **Problem:** Automate classification of free-text correctional incident narratives into **73** binary incident-type labels, replacing manual labeling across facilities.
+-   **Approach:** ~**111K** labeled incidents from a **24**-table relational export (9 flat CSVs); concatenated narrative fields; `TfidfVectorizer` (~**15K** features, unigrams + bigrams, `sublinear_tf=True`); participant-level features aggregated to incident level; `MultiOutputClassifier(LogisticRegression)` one-vs-rest; train/test ~75/25 stratified split (~83K / ~28K).
+-   **Results (held-out test):** micro-F1 **75.6%**, precision **88.3%**, recall **66.1%**, Jaccard (micro) **60.8%**, exact match **60.6%**; human-in-the-loop validation and hierarchical modeling roadmap documented with stakeholders.
+
+### Out-of-county (OOC) violator processing analysis
+
+-   **Scope:** **123,291** records, six years (**2019–2025**), **10** source tables → flat analytic set (**32** fields); reproducible **Quarto** HTML report with embedded Python.
+-   **Methods:** Profiling and missingness (including null co-occurrence / Pearson clusters); chi-square (`scipy.stats.chi2_contingency`) and **Cramér's V**; county cooperation score (0–100, weighted components); **GeoPandas** (US Census TIGER/Line) + **NetworkX** directed graphs for county flows; linear trends (e.g., polyfit).
+-   **Illustrative findings:** ~**84%** same-county arrest→booking; ~**84%** same-county admission→release (Cramér's V **0.859**); **4,107** individuals with dual cross-county disruption patterns; apparent **45%** `OTHER_AGENCY_NAME` missingness explained by DOC arrests (residual true gap ~**0.8%** on non-DOC subset).
 
 ---
 
@@ -617,5 +661,5 @@ Email: <bfmalle@uoregon.edu>
 
 ---
 
-_Document compiled: August 2025_  
-_This is a comprehensive master CV document for creating targeted functional resumes_
+_Document compiled: May 2026._  
+_Supersedes earlier separate BIOS and Washington DOC project notes in `docs/` (May 2026). Use this document only for creating targeted resumes and cover letters._
